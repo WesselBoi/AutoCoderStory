@@ -1,0 +1,221 @@
+•⁠  ⁠{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: fantasy;
+    background-color: #000;
+    color: #fff;
+    scroll-behavior: smooth;
+}
+
+.container {
+    width: 100%;
+    overflow: hidden;
+}
+
+.chapter {
+    height: 100vh;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 1.5s ease-in-out;
+    background-color: #111;
+    border-bottom: 1px solid #444;
+    text-align: center;
+    position: relative;
+
+    background-image: url(./assets/MB0025_Bhima-and-Bhagadatta_WebHR.jpg);
+    z-index: -2;
+}
+
+
+#chapter4{
+    background-image: url(./assets/bg\ image\ inner\ circle.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#chapter4.fade img.chapter-image{
+    opacity: 0.7;
+}
+
+#chapter7{
+    background-image: url(./assets/bgimage\ x.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#chapter7.fade img.chapter-image{
+    opacity: 0.7;
+}
+
+
+#chapter6{
+    background-image: url(./assets/bg\ image\ vs\ karn.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#chapter6.fade img.chapter-image{
+    opacity: 0.75;
+}
+
+
+
+#chapter8{
+    background-image: url(./assets/bg\ img\ drona.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#chapter8.fade img.chapter-image{
+    opacity: 0.75;
+}
+
+
+#chapter5{
+    background-image: url(./assets/trap\ tightens.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#chapter5.fade img.chapter-image{
+    opacity: 0.75;
+}
+
+
+#chapter3{
+    background-image: url(./assets/bg\ fighting.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#chapter3.fade img.chapter-image{
+    opacity: 0.75;
+}
+
+
+#chapter9{
+    background-image: url(./assets/final\ stand\ 2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#chapter9.fade img.chapter-image{
+    opacity: 0.75;
+}
+
+
+#chapter10{
+    background-image: url(./assets/mourn.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#chapter10.fade img.chapter-image{
+    opacity: 0.75;
+}
+
+
+#chapter1{
+    background-image: url(./assets/ready.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+#background-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    transform: translate(-50%, -50%);
+    object-fit: cover; /* Ensures video covers the container */
+  }
+
+
+  #intro-heading1{
+    font-weight: 700;
+    font-size: 80px;
+  }
+
+
+#intro-heading2{
+    margin-top: 50px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+
+
+.chapter h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+    color: #9a3404;
+    z-index: -2;
+
+    line-height: 25px;
+}
+
+.chapter p {
+    max-width: 550px;
+    text-align: center;
+    line-height: 1.6;
+    z-index: -2;
+    color: #9a3404;
+    margin-left: 0px;
+
+    margin-top: 60px;
+    font-size: 30px;
+}
+
+.ch1{
+    max-width: 550px;
+}
+
+
+.chapter img.chapter-image {
+    margin-top: 20px;
+    width: 1000px;
+    max-width: 800px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    transition: opacity 1.5s ease-in-out, transform 1.5s ease-in-out;
+    z-index: 1;
+    height: 700px;
+
+    
+}
+
+.chapter.fade img.chapter-image {
+    z-index: -1;
+    opacity: 0.9;
+    transform: translate(-50%, -50%) scale(0.9);      /* Move into the background */
+
+}
+
+
